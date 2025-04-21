@@ -1,23 +1,41 @@
-# 📉 Value at Risk (VaR) – Historical Method
+# Value at Risk (VaR)- Historical Method
 
-This project demonstrates the calculation of **Value at Risk (VaR)** for a diversified portfolio using the **Historical Method**, implemented in both **Python** and **Excel**.
+This project implements the **Historical** approach to estimate the Value at Risk (VaR) of an equally weighted multi-asset portfolio using Python.
 
----
-
-## 📌 Overview
-
-**Value at Risk (VaR)** is a fundamental risk metric used to estimate the maximum expected loss of a portfolio over a given time frame and confidence level.
-
-This project focuses on:
-
-- ✅ **Historical Method** *(Implemented)*
-- ⏳ **Parametric Method** *(Coming Soon)*
-- ⏳ **Monte Carlo Simulation** *(Coming Soon)*
+It leverages actual historical return data to calculate VaR without assuming any specific distribution, providing a non-parametric estimation of potential portfolio losses.
 
 ---
 
-## 📊 Project Features
+## 📊 Portfolio Composition
 
+The portfolio consists of the following ETFs:
+
+- **SPY** – S&P 500 ETF
+- **BND** – Total Bond Market ETF
+- **GLD** – Gold ETF
+- **QQQ** – Nasdaq-100 ETF
+- **VTI** – Total Stock Market ETF
+
+Data is fetched via Yahoo Finance using `yfinance`.
+
+---
+
+## 📌 Methodology
+
+- Fetches 15 years of daily price data
+- Calculates daily log returns and constructs an equally weighted portfolio
+- Computes rolling 5-day portfolio returns
+- Sorts historical returns to determine empirical quantiles corresponding to different confidence levels
+- Estimates VaR directly from the historical distribution of returns
+
+---
+
+## 🔍 Outputs
+
+- Value at Risk (VaR) in both percentage and dollar terms at 99% confidence level.
+- Histogram of 5-day portfolio returns with vertical VaR threshold.
+
+---
 - Uses 15 years of historical daily data from `yfinance`
 - Portfolio of 5 ETFs: `SPY`, `BND`, `GLD`, `QQQ`, `VTI`
 - Equally weighted $1,000,000 portfolio
