@@ -1,16 +1,16 @@
 #Value at Risk (VaR) Portfolio Risk Analysis
 
-This project demonstrates how to calculate Value at Risk (VaR) using three methods:
+## 📌 Overview
 
-- Historical Method ✅
-- Parametric Method (coming soon)
-- Monte Carlo Simulation (coming soon)
+**Value at Risk (VaR)** is a fundamental risk metric used to estimate the maximum expected loss of a portfolio over a given time frame and confidence level.
 
-## Features
-- Pulls data using `yfinance`
-- Calculates daily log returns
-- Supports N-day VaR at a chosen confidence level
-- Visualizes return distributions
+This project focuses on:
+
+- ✅ **Historical Method** *(Implemented)*
+- ✅ **Parametric Method** *(Implemented)*
+- ⏳ **Monte Carlo Simulation** *(Coming Soon)*
+
+---
 
 ## Technologies
 - Python
