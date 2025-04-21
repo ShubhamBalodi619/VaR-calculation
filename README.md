@@ -28,16 +28,6 @@ Data is fetched via Yahoo Finance using `yfinance`.
 - Derives portfolio standard deviation
 - Calculates VaR using the formula:
 
-\[
-\text{VaR} = \mu \cdot T - z_{\alpha} \cdot \sigma \cdot \sqrt{\frac{T}{252}}
-\]
-
-Where:
-- \( \mu \) = portfolio mean daily return  
-- \( \sigma \) = portfolio standard deviation  
-- \( T \) = time horizon (5 days)  
-- \( z_{\alpha} \) = z-score at given confidence level
-
 ---
 
 ## 🔍 Outputs
