@@ -26,7 +26,7 @@ Data is fetched via Yahoo Finance using `yfinance`.
 - Calculates daily log returns and constructs an equally weighted portfolio
 - Computes annualized covariance matrix of asset returns
 - Derives portfolio standard deviation
-- Calculates VaR using the formula:
+- Calculates VaR using the formula
 
 ---
 
