@@ -8,7 +8,7 @@ This project focuses on:
 
 - ✅ **Historical Method** *(Implemented)*
 - ✅ **Parametric Method** *(Implemented)*
-- ⏳ **Monte Carlo Simulation** *(Coming Soon)*
+- ⏳ **Monte Carlo Simulation** *(Implemented)*
 
 ---
 
