@@ -50,10 +50,3 @@ You can install the dependencies using:
 
 ```bash
 pip install numpy pandas matplotlib yfinance scipy
-
-- Uses 15 years of historical daily data from `yfinance`
-- Portfolio of 5 ETFs: `SPY`, `BND`, `GLD`, `QQQ`, `VTI`
-- Equally weighted $1,000,000 portfolio
-- Calculates 5-day rolling returns
-- Computes VaR at 99% confidence level
-- Visualizes return distribution and VaR threshold
