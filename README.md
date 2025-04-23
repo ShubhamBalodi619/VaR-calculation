@@ -40,3 +40,16 @@ Data is fetched via Yahoo Finance using `yfinance`.
 - Histogram of 5-day portfolio returns with vertical VaR thresholds
 
 ---
+
+## 📦 Dependencies
+
+- `numpy`
+- `pandas`
+- `matplotlib`
+- `yfinance`
+- `scipy`
+
+You can install the dependencies using:
+
+```bash
+pip install numpy pandas matplotlib yfinance scipy
