@@ -36,6 +36,21 @@ Data is fetched via Yahoo Finance using `yfinance`.
 - Histogram of 5-day portfolio returns with vertical VaR threshold.
 
 ---
+
+
+## 📦 Dependencies
+
+- `numpy`
+- `pandas`
+- `matplotlib`
+- `yfinance`
+- `scipy`
+
+You can install the dependencies using:
+
+```bash
+pip install numpy pandas matplotlib yfinance scipy
+
 - Uses 15 years of historical daily data from `yfinance`
 - Portfolio of 5 ETFs: `SPY`, `BND`, `GLD`, `QQQ`, `VTI`
 - Equally weighted $1,000,000 portfolio
